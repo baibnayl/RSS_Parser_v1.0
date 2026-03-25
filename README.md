@@ -118,7 +118,7 @@ This project is intentionally structured in small helper functions to keep respo
 - collecting channel data
 - collecting item data
 - formatting plain text output
-- generating JSON output
+- generating JSON output<br />
 This makes the code easier to read, test, and extend.
 
 ## Error Handling
@@ -126,5 +126,5 @@ This makes the code easier to read, test, and extend.
 The program validates:
 - HTTP response status
 - RSS channel presence
-- request timeout behavior
+- request timeout behavior<br />
 If the feed is invalid or the request fails, an exception is raised.
