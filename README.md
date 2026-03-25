@@ -71,8 +71,10 @@ python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --js
 
 ## Output Formats
 
-Plain text:<br />
+### Plain text
+
 The reader formats channel and item data into a human-readable output.
+
 Example:
 
 ```bash
@@ -81,14 +83,16 @@ Link: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 Description: NYT > World News description
 
 Title: Some News Title
-Published: Sun, 25 Mar 2026 04:21:44 +0300
+Published: Sun, 22 Mar 2026 04:21:44 +0300
 Link: https://example.com/news
 
 Some news description.
 ```
 
-JSON:<br />
+### JSON:
+
 When the --json flag is provided, the reader outputs a pretty-printed JSON string with an indentation of 2 spaces.
+
 Example:
 
 ```bash
@@ -99,7 +103,7 @@ Example:
   "items": [
     {
       "title": "Some News Title",
-      "pubDate": "Sun, 25 Mar 2026 04:21:44 +0300",
+      "pubDate": "Sun, 22 Mar 2026 04:21:44 +0300",
       "link": "https://example.com/news",
       "description": "Some news description."
     }
