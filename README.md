@@ -29,7 +29,7 @@ cd RSS_Parser_v1.0
 
 Install dependencies:
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
@@ -46,25 +46,25 @@ Arguments:
 
 ## Examples
 
-Plain text output
+### Plain text output
 
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 ```
 
-Limit the number of items
+### Limit the number of items
 
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --limit 5
 ```
 
-JSON output
+### JSON output
 
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --json
 ```
 
-JSON output with limit
+### JSON output with limit
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --json --limit 3
 ```
@@ -109,7 +109,7 @@ Example:
 
 ## Project Structure
 
-```python
+```bash
 rss_reader.py
 ```
 
