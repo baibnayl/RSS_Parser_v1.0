@@ -36,12 +36,9 @@ pip install -r requirements.txt
 python rss_reader.py SOURCE [--json] [--limit LIMIT]
 ```
 
-Arguments:
-
-SOURCE - RSS feed URL
-
---json - print output in JSON format
-
+Arguments:<br />
+SOURCE - RSS feed URL<br />
+--json - print output in JSON format<br />
 --limit LIMIT - limit the number of news items returned
 
 ## Examples
