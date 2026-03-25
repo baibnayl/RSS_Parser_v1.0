@@ -1,4 +1,5 @@
 # RSS_Parser_v1.0
+
 A small command-line RSS reader written in Python.
 
 This project fetches an RSS 2.0 feed from a given URL, parses the XML, and prints the result either as formatted plain text or as JSON.
@@ -27,11 +28,13 @@ cd RSS_Parser_v1.0
 ```
 
 Install dependencies:
+
 ```python
 pip install -r requirements.txt
 ```
 
-## Usage:
+## Usage
+
 ```bash
 python rss_reader.py SOURCE [--json] [--limit LIMIT]
 ```
@@ -43,17 +46,20 @@ Arguments:
 
 ## Examples
 
-Plain text output:
+Plain text output
+
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 ```
 
-Limit the number of items:
+Limit the number of items
+
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --limit 5
 ```
 
-JSON output:
+JSON output
+
 ```bash
 python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --json
 ```
@@ -68,6 +74,7 @@ python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --js
 Plain text:<br />
 The reader formats channel and item data into a human-readable output.
 Example:
+
 ```bash
 Feed: NYT > World News
 Link: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
@@ -83,6 +90,7 @@ Some news description.
 JSON:<br />
 When the --json flag is provided, the reader outputs a pretty-printed JSON string with an indentation of 2 spaces.
 Example:
+
 ```bash
 {
   "title": "NYT > World News",
@@ -104,6 +112,7 @@ Example:
 ```python
 rss_reader.py
 ```
+
 Main parts of the implementation:
 - XML parsing with xml.etree.ElementTree
 - HTTP requests with requests
