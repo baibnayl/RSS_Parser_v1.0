@@ -68,7 +68,7 @@ python rss_reader.py https://rss.nytimes.com/services/xml/rss/nyt/World.xml --js
 
 ## Output Formats
 
-Plain text:
+Plain text:<br />
 The reader formats channel and item data into a human-readable output.
 Example:
 ```bash
@@ -83,7 +83,7 @@ Link: https://example.com/news
 Some news description.
 ```
 
-JSON:
+JSON:<br />
 When the --json flag is provided, the reader outputs a pretty-printed JSON string with an indentation of 2 spaces.
 Example:
 ```bash
