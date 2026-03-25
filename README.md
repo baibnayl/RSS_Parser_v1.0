@@ -89,7 +89,7 @@ Link: https://example.com/news
 Some news description.
 ```
 
-### JSON:
+### JSON
 
 When the --json flag is provided, the reader outputs a pretty-printed JSON string with an indentation of 2 spaces.
 
