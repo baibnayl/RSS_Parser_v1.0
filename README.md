@@ -39,8 +39,10 @@ python rss_reader.py SOURCE [--json] [--limit LIMIT]
 Arguments:
 
 SOURCE - RSS feed URL
+
 --json - print output in JSON format
---limti LIMIT - limit the number of news items returned
+
+--limit LIMIT - limit the number of news items returned
 
 ## Examples
 
