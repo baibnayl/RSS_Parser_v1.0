@@ -26,7 +26,7 @@ git clone https://github.com/baibnayl/RSS_Parser_v1.0.git
 cd RSS_Parser_v1.0
 ```
 
-Install dependecies:
+Install dependencies:
 ```python
 pip install -r requirements.txt
 ```
