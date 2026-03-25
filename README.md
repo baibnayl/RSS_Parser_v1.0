@@ -36,10 +36,10 @@ pip install -r requirements.txt
 python rss_reader.py SOURCE [--json] [--limit LIMIT]
 ```
 
-Arguments:<br />
-SOURCE - RSS feed URL<br />
---json - print output in JSON format<br />
---limit LIMIT - limit the number of news items returned
+Arguments:
+- SOURCE - RSS feed URL<br />
+- --json - print output in JSON format<br />
+- --limit LIMIT - limit the number of news items returned
 
 ## Examples
 
@@ -74,7 +74,7 @@ Link: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 Description: NYT > World News description
 
 Title: Some News Title
-Published: Sun, 20 Oct 2026 04:21:44 +0300
+Published: Sun, 25 Mar 2026 04:21:44 +0300
 Link: https://example.com/news
 
 Some news description.
@@ -91,7 +91,7 @@ Example:
   "items": [
     {
       "title": "Some News Title",
-      "pubDate": "Sun, 20 Oct 2026 04:21:44 +0300",
+      "pubDate": "Sun, 25 Mar 2026 04:21:44 +0300",
       "link": "https://example.com/news",
       "description": "Some news description."
     }
