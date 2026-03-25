@@ -22,7 +22,7 @@ This project fetches an RSS 2.0 feed from a given URL, parses the XML, and print
 Clone the repository:
 
 ```bash
-git clone https://github.com/baibnayl/rss-reader.git
+git clone https://github.com/baibnayl/RSS_Parser_v1.0.git
 cd rss-reader
 ```
 
